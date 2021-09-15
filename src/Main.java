@@ -9,8 +9,8 @@ public class Main {
         int newSum;
         int bonus;
 
-        initialAccount = 150;
-        sumAdded = 1550;
+        initialAccount = ;
+        sumAdded = ;
 
         if (sumAdded > 1000) {
             bonus = sumAdded / 100;
