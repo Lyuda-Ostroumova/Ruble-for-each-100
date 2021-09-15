@@ -9,16 +9,16 @@ public class Main {
         int newSum;
         int bonus;
 
-        initialAccount = ;
-        sumAdded = ;
+        initialAccount = 150;
+        sumAdded = 1550;
 
         if (sumAdded > 1000) {
             bonus = sumAdded / 100;
-            newSum = initialAccount + sumAdded + bonus;
         } else {
             bonus = 0;
-            newSum = initialAccount + sumAdded;
         }
+
+        newSum = initialAccount + sumAdded + bonus;
 
         System.out.println("Итоговый счет:" + newSum);
         System.out.println("Бонусные рубли:" + bonus);
